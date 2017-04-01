@@ -7,6 +7,9 @@ public class TestHeritage {
 		System.out.println(new Enfant().nombreDeTetes());
 		System.out.println(new Carre().aire());
 		System.out.println(new Triangle().aire());
+		System.out.println(new Cercle().aire1());
+		System.out.println(new Triangle().aire1());
+		System.out.println(new Carre().aire1());
 	}
 
 }
