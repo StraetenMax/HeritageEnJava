@@ -1,4 +1,4 @@
 
-public class Enfant {
+public class Enfant extends Maman{
 
 }
