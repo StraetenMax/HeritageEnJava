@@ -2,8 +2,9 @@
 public class TestHeritage {
 
 	public static void main(String[] args) {
-		Enfant enfant = new Enfant();
-		System.out.println(enfant.nombreDeTete());
+		Enfant enfant1 = new Enfant();
+		System.out.println(enfant1.nombreDeTetes());
+		System.out.println(new Enfant().nombreDeTetes());
 	}
 
 }

@@ -1,7 +1,7 @@
 
 public class Maman {
 	
-	public int nombreDeTete(){
+	public int nombreDeTetes(){
 		return 1;
 	}
 }
