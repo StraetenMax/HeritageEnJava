@@ -1,7 +1,8 @@
 
 abstract public class Forme {
-	//attribut
+	//attributs / propriétés
 	protected int cote = 4;
+	public int prop1 = 5;
 	//methodes non abstraite
 	public double aire(){
 		return cote*cote;
@@ -17,4 +18,9 @@ abstract public class Forme {
 	public Forme(){
 		System.out.println("je suis le constructeur de la classe forme");
 	}
+	
+	public Forme(String chaine){
+		System.out.println(chaine);
+	}
+	
 }

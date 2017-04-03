@@ -31,6 +31,9 @@ public class TestHeritage {
 		}
      new Carre1();
 	
+     System.out.println(new Carre1().prop1);
+     
+     new Carre();
 	}
 	}
 
