@@ -23,4 +23,9 @@ abstract public class Forme {
 		System.out.println(chaine);
 	}
 	
+	public double moi(){
+		return 2.5;
+	}
+	
+	
 }

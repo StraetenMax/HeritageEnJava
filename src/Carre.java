@@ -14,10 +14,13 @@ public class Carre extends Forme{
 			super();
 		}*/
 		
-		public Carre(){
-			System.out.println(super.prop1 * prop1);
-		}
+		/*public Carre(){
+			System.out.println(super.prop1 * this.prop1);
+		}*/
 		
+		public Carre(){
+			System.out.println(super.moi());
+		}
 		
 		/*public Carre(){
 			super("je suis le deuxième");
