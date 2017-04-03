@@ -13,4 +13,8 @@ abstract public class Forme {
 	//methode abstraite
 	abstract public double aire1();
 	
+	//constructeur
+	public Forme(){
+		System.out.println("je suis le constructeur de la classe forme");
+	}
 }

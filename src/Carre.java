@@ -7,4 +7,9 @@ public abstract class Carre extends Forme {
 		public double aire1(){
 			return cote*cote;
 		}
+		//constructeur
+		public Carre() {
+			super();
+		}
+		
 }

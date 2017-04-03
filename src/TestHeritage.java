@@ -29,6 +29,8 @@ public class TestHeritage {
 			System.out.println(f.aire1());
 			
 		}
-    }
+     new Carre1();
+	
+	}
 	}
 
